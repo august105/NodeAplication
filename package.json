@@ -4,7 +4,7 @@
   "description": "Aplicativo da Aula",
   "main": "app.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/august105/NodeAplication/issues"
   },
-  "homepage": "https://github.com/august105/NodeAplication#readme"
+  "homepage": "https://github.com/august105/NodeAplication#readme",
+  "dependencies": {
+    "jest": "^27.2.0"
+  }
 }
